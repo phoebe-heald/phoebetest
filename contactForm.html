@@ -1,0 +1,67 @@
+<div data-role="page" id="contactForm">
+  <div data-role="header" style="overflow:hidden;">
+    <a href="contacts.html" data-icon="delete">Cancel</a>
+    <h1>Add Contact</h1>
+    <a onclick="return saveContact();" href="#" data-icon="check">Save</a>
+    <a href="#" data-icon="back" data-rel="back" title="Go back" class="ui-btn-right">Back</a>
+    <div data-role="navbar">
+      <ul>
+        <li><a href="menu.html" data-transition='slide'>Home</a></li>
+        <li><a href="apprenticeships.html" data-transition='slide'>Apprenticeships</a></li>
+        <li><a href="#">About Us</a></li>
+      </ul>
+    </div><!-- /navbar -->
+  </div><!-- /header -->
+
+  <div data-role="content">
+
+    <form action="contactForm.html" id="formContact" method="post">
+      <input type="hidden" name="id" value="0"/>
+      <table>
+        <tr>
+          <td>Display Name</td>
+          <td><input type="text" name="displayName" value="" /></td>
+        </tr>
+        <tr>
+          <td>First Name</td>
+          <td><input type="text" name="firstName" value="" /></td>
+        </tr>
+        <tr>
+          <td>Last Name</td>
+          <td><input type="text" name="lastName" value="" /></td>
+        </tr>
+        <tr>
+          <td>Email (Home)</td>
+          <td><input type="text" name="email_home" value="" /></td>
+        </tr>
+        <tr>
+          <td>Email (Work)</td>
+          <td><input type="text" name="email_work" value="" /></td>
+        </tr>
+        <tr>
+          <td>Email (Other)</td>
+          <td><input type="text" name="email_other" value="" /></td>
+        </tr>
+        <tr>
+          <td>Phone (Home)</td>
+          <td><input type="text" name="phone_home" value="" /></td>
+        </tr>
+        <tr>
+          <td>Phone (Work)</td>
+          <td><input type="text" name="phone_work" value="" /></td>
+        </tr>
+        <tr>
+          <td>Phone (Other)</td>
+          <td><input type="text" name="phone_other" value="" /></td>
+        </tr>
+      </table>
+    </form>
+
+  </div>
+  <div data-role="footer">
+    <h3>Drive Computing</h3>
+    <p>An off-the-shelf or a bespoke software solution? What food and drink ERP software options are available? Detailing your processes will help you
+      refine your options. You could save money by bringing your processes in line with an off the shelf solution. The easier alternative is to chose
+      a flexible solution like BLISS. Having built in flexibility reduces the likelihood you’ll need expensive enhancements. </p>
+  </div><!-- /footer -->
+</div>
