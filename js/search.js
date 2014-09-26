@@ -49,6 +49,7 @@ function doSearch()
           });
 }
 
+//hello
 
 function getProd(prodCode)
 {
